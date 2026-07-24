@@ -59,39 +59,7 @@ Interactive Power BI dashboard with filters for subscription status, gender, cat
 | Rebuild segmentation on percentile-based thresholds | Fixed-number cutoffs (e.g., "10 previous purchases = loyal") produce distorted segments; recommend quartile-based segmentation instead |
 | Prioritize top-rated, top-selling SKUs (Jewelry, Blouses, Sandals) in campaigns | Highest combination of volume and rating — lowest-risk marketing spend |
 
-## 7. Repository Structure
-
-```
-customer-shopping-behavior-analysis/
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── data/
-│   ├── customer_shopping_data.csv
-│   └── data_dictionary.md
-├── notebooks/
-│   └── 01_data_cleaning_eda.ipynb
-├── sql/
-│   └── business_questions.sql
-├── dashboard/
-│   ├── customer_behavior_dashboard.pbix
-│   └── dashboard_preview.png
-└── docs/
-    ├── business_problem_statement.pdf
-    └── insights_summary.md
-```
-
-## 8. How to Reproduce
-
-```bash
-git clone https://github.com/<your-username>/customer-shopping-behavior-analysis.git
-cd customer-shopping-behavior-analysis
-pip install -r requirements.txt
-jupyter notebook notebooks/01_data_cleaning_eda.ipynb
-```
-Load `sql/business_questions.sql` against the cleaned table in SQL Server (or adapt syntax for PostgreSQL/MySQL — see note in the SQL file header). Open `dashboard/customer_behavior_dashboard.pbix` in Power BI Desktop for the interactive dashboard.
-
-## 9. Limitations
+## 7. Limitations
 
 - Dataset is synthetic; findings demonstrate methodology, not real market behavior.
 - No time dimension in the raw data — "trend" analysis here is cross-sectional, not longitudinal.
