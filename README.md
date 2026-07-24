@@ -42,7 +42,7 @@ Pipeline: `raw CSV → pandas cleaning → SQL Server → SQL analysis → Power
 - **Shipping speed barely moves basket size.** Express vs. Standard shipping average purchase amounts differ by about $2 ($60.48 vs $58.46) — not enough to justify shipping-speed-based promotions.
 - **Category leaders are consistent:** Jewelry, Blouses, and Sandals top their respective categories in order volume, useful for inventory prioritization.
 
-*(Full write-up with caveats on methodology limitations: see [`docs/insights_summary.md`](docs/insights_summary.md))*
+*(Full write-up with caveats on methodology limitations: see [`docs/insights_summary.md`](insights_summary.md))*
 
 ## 5. Dashboard
 
