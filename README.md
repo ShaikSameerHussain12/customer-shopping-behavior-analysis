@@ -68,5 +68,5 @@ Interactive Power BI dashboard with filters for subscription status, gender, cat
 ## Author
 
 **Sameer** — Aspiring Data Analyst
-[LinkedIn](#) · [GitHub](#) · [Email](#)
+[LinkedIn](https://www.linkedin.com/in/shaik-sameer-hussain-425a012bb/) 
 
