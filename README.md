@@ -46,7 +46,7 @@ Pipeline: `raw CSV → pandas cleaning → SQL Server → SQL analysis → Power
 
 ## 5. Dashboard
 
-![Dashboard Preview](dashboard/dashboard_preview.png)
+![Dashboard Preview]([dashboard/dashboard_preview.png](https://github.com/ShaikSameerHussain12/customer-shopping-behavior-analysis/blob/main/customer_behavior_dashboard.png))
 
 Interactive Power BI dashboard with filters for subscription status, gender, category, and shipping type. [Download the .pbix](dashboard/customer_behavior_dashboard.pbix) to explore.
 
